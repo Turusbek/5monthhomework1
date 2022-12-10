@@ -37,9 +37,9 @@ class MainActivity : AppCompatActivity(), CounterView {
 
     override fun setColor(count: Int) {
         if (count == 15){
-            binding.tvCount.setTextColor(Color.BLACK)
-        }else{
             binding.tvCount.setTextColor(Color.RED)
+        }else{
+            binding.tvCount.setTextColor(Color.BLACK)
         }
     }
     }
